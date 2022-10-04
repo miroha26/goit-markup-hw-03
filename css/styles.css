@@ -1,0 +1,193 @@
+:root{
+    --color-primery:hsla(0, 0%, 46%, 1);
+    --color-brand:hsla(207, 90%, 54%, 1);
+    --color-title:hsla(0, 0%, 13%, 1);
+    --color-white:hsla(0, 0%, 100%, 1);
+    --color-beckground-accent:hsla(235, 10%, 21%, 1);
+    }
+body{
+    font-family: 'Roboto', sans-serif;
+    color: hsla(0, 0%, 46%, 1);
+    background-color: hsla(0, 0%, 100%, 1);
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.button {
+    cursor: pointer;
+    background-color: 2196f3;
+}
+
+
+/*хедер та футер*/
+.logo {
+    color: hsla(0, 0%, 0%, 1);
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.logo-web {
+    color:var(--color-brand);
+}
+.logo-studio{
+    color: var(--color-white);
+}
+.site-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.site-nav .link{
+    color: hsla(0, 0%, 13%, 1);
+}
+.site-nav .link:hover,.link:focus{
+    color:var(--color-brand)
+}
+.site-nav .link.current{
+    color: var(--color-brand)
+}
+.section-contakt{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em
+}
+.section-contakt .link{
+    color: hsla(0, 0%, 46%, 1);
+    font-style: normal;
+}
+.section-contakt .link:hover,
+.link:focus {
+    color: var(--color-brand)
+}
+.section-contakt .list .link:hover,.link:focus{
+    color: var(--color-brand)
+}
+.list .link.adres{
+    color:var(--color-white);
+}
+.list .link.call{
+    color:hsla(0, 0%, 100%, 0.6)
+}
+.footer{
+    background-color: var(--color-beckground-accent);
+}
+
+/*мейн студія*/
+.hero{
+    color: var(--color-white);
+    background-color: var(--color-beckground-accent);
+}
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-transform: uppercase
+}
+.button-studio{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,9;
+    letter-spacing: 0.06em;
+    color: var(--color-white);
+    background-color:var(--color-brand);
+}
+.button-studio:hover,
+.button-studio:focus{
+    background-color: #188ce8;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.advances{}
+.advances-title{
+    color:var(--color-title);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.advances-paragraph{
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em
+}
+
+.work{}
+.work-title{
+    color: var(--color-title);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.03em
+}
+
+.team{
+    background-color: hsla(250, 38%, 97%, 1)
+}
+.team-title{
+    color: var(--color-title);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.team-name{
+    color: var(--color-title);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.team-card{
+    background-color:var(--color-white) ;
+}
+
+/*мейн портфоліо*/
+.button-portfolio{
+    font-family: 'Roboto', sans-serif;
+    color:var(--color-title);
+    background-color: hsla(250, 38%, 97%, 1);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
+.button-portfolio:hover ,.button-portfolio:focus{
+    color:var(--color-white);
+    background-color: var(--color-brand);
+}
+
+.portfolio-card{
+}
+.portfolio-title{
+    color: var(--color-title);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio-paragraph{
+    color: var(--color-primery);
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+}
