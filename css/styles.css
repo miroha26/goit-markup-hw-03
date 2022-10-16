@@ -105,7 +105,6 @@ img{
     font-style: normal;
     padding: 32px 0;
 }
-
 .section-contakt .link:hover,
 .link:focus {
     color: var(--color-brand)
@@ -119,6 +118,7 @@ img{
 .list .link.call{
     color:hsla(0, 0%, 100%, 0.6)
 }
+
 .footer{
     background-color: var(--color-beckground-accent);
     padding-top: 60px;
@@ -128,9 +128,13 @@ img{
     margin-bottom: 20px;
     margin-right: 0;
 }
+.list-footer .link{
+    padding: 0;
+}
 .list-footer .item-footer{
     display: block;
 }
+
 .item-footer:not(:last-child){
     margin-bottom: 9px;
 }
